@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather Apps</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="temperature">
+        <div class="heading">
+            <h1>Weather App</h1>
+            <hr>
+        </div>
+        <div class="latlng">
+            <h2>Your Latitude And Longtitude</h2>
+            <div>
+                <h3>Latitude: <span class="long"></span></h3>
+                <h3>Longtitude: <span class="lat"></span></h3>
+
+            </div>
+            <!-- Skycon Used Just For Fun -->
+            <div class="temperatureSection">
+                <canvas id="snow" width="128" height="128"></canvas>
+            </div>
+            <div>
+                <h3>Timezone: <span class="currentTimezone"></span></h3>
+                <h2>Current Temperature: <span class="currentTemperature"></span> <span class="currentTemp">°C</span></h2>
+            </div>
+            <div class="change">
+                <button type="button" class="button">Change To <span class="symbol">°F</span></button>
+
+            </div>
+        </div>
+        <script src="./js/app.js" async defer></script>
+        <script src="./js/skycons.js"></script>
+</body>
+
+</html>
