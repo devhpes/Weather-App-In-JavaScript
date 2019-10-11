@@ -25,7 +25,7 @@ body {
 
 .lat,
 .long {
-    color: crimson;
+    color: rgb(230, 9, 9);
 }
 
 /* Gradient transparent - color - transparent */
