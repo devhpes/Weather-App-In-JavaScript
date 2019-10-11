@@ -36,7 +36,8 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-.currentTemp, .currentTemperature {
+.currentTemp,
+.currentTemperature {
     color: rgb(230, 9, 9);
 }
 
@@ -60,4 +61,16 @@ hr {
 
 .button:hover {
     background-color: rgb(18, 143, 49);
+}
+
+@media (max-width: 426px) {
+    .button {
+        width: 25%;
+    }
+}
+
+@media (max-width: 350px) {
+    .button {
+        width: 25%;
+    }
 }
